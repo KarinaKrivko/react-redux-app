@@ -1,4 +1,11 @@
-import { createStore } from 'redux';
+import { combineReducers, createStore } from 'redux';
 import {productReducer} from './productReducer';
+import { basketReducer } from './basketReducer';
 
-export const store = createStore(productReducer);
+const rootReducer = combineReducers({
+    products: productReducer,
+    basket: basketReducer
+})
+
+export const store = createStore(rootReducer);
+

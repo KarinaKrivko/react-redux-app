@@ -1,0 +1,22 @@
+.item{
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    border: 2px solid black;
+}
+
+.btns{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+   
+}
+
+.btns button{
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    font-size: medium;
+}
+

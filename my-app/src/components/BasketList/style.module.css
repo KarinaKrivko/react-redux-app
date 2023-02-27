@@ -1,0 +1,30 @@
+.basket_container {
+    padding: 10px;
+    background-color: lightblue;
+    margin: 5px;
+  }
+  
+  .basket {
+    font-weight: 700;
+  }
+  
+  .basket_item {
+    background-color: lightblue;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    margin: 5px;
+  }
+  .item_id,
+  .item_count {
+    margin: 5px;
+  }
+  
+  .item_count {
+    text-align: center;
+  }
+  
+  .id_container,
+  .count_container {
+    width: 20%;
+  }

@@ -2,9 +2,10 @@ import React from 'react';
 import { useSelector } from 'react-redux';
 import Product from '../Product';
 
+
 function ProductList() {
 
-    const products = useSelector(state => state);
+    const products = useSelector(state => state.products);
 
     return (
         <div>
@@ -16,3 +17,7 @@ function ProductList() {
     )
  }
 export default ProductList;
+
+
+
+       

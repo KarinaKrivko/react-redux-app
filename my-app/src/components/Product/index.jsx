@@ -11,6 +11,9 @@ function Product({id, title, price}) {
             <button onClick={() => dispatch({type: 'DELETE', payload: id})}>
                 Удалить
             </button>
+            <button onClick={()=>dispatch({type:'BASKET-ADD', payload: id})}>
+                Добавить
+            </button>
         </div>
     );
 }
